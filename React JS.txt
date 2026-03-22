@@ -1,0 +1,28 @@
+React JS
+
+features
+- component based architecture
+- used to develop single page application v/s mpa
+- jsx (contains code similar to html{not html, just similar})
+- virtual dom, reconciation concept
+- large community support
+
+topic-1 : single page vs multi page
+
+- in multi-page application, for each page the client will send the request to the server (reload will be done for every page).
+- in single-page application, only one page is rendered from the server and the modifications are done to that particular page only(here no reload will takes place).
+
+topic-2 : DOM
+- when a html page is loaded into the browser, the doc is going to convert into a tree like structure is known as DOM.
+example  :
+<div>
+	<h1>heading</h1>
+	<p> para </p>
+</div>
+
+DOM:
+div(root node)
+|-h1(elementary node)
+| |-heading(text node)
+|-p(elementary node)
+| |-para(text node)

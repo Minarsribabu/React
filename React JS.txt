@@ -26,3 +26,21 @@ div(root node)
 | |-heading(text node)
 |-p(elementary node)
 | |-para(text node)
+
+topic-3 : VDOM
+- need of VDOM
+	> In JS for every action(user clicks on button,api call,fontchange,colour change) DOM is changed and loaded into browser.
+	> this makes the application slower , this is being overcome using REACT
+- when ever the component is loaded VDOM is created
+- when ever a user clicks on the component, the vdom is changed.
+- at each action current VDOM compares with its previous VDOM using diffing algorithm and the algorithm returns a changeset to the current VDOM. 
+
+Use of VITE
+> Esbuild(compiler : convert jsx code to Js code)
+> Hot module Replacement (replaces module changes where the component is updated).
+> Development Server (provides a local host server{5174}).
+> Rollup (creates the production build).
+
+
+Creating a New React project
+- using npm create vite@latest projectName.

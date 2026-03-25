@@ -6,14 +6,16 @@ import './App.css'
 import Header from './components/Header'
 import MainComponent from './components/MainComponent'
 import Footer from './components/Footer'
+import JSXRles from './components/JSXRles'
 
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <Footer />
-      <MainComponent />
+      <MainComponent /> */}
+      <JSXRles />
 
     </>
   )
